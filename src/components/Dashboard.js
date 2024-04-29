@@ -7,7 +7,7 @@ export const Dashboard = () => {
 
   const handleLogout = () => {
     localStorage.removeItem("token");
-    navigate("/login");
+    navigate("/");
   };
 
   return (
